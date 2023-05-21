@@ -79,7 +79,7 @@
 		180104A92A19678500E80DD7 = {
 			isa = PBXGroup;
 			children = (
-				180C09C82A1A897100ABC5EC /* CoreData */,
+				180C09C82A1A897100ABC5EC /* Google */,
 				182D02F42A19E9C900074EAF /* Extension */,
 				180104B42A19678500E80DD7 /* JustCook */,
 				180104B32A19678500E80DD7 /* Products */,
@@ -172,12 +172,12 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
-		180C09C82A1A897100ABC5EC /* CoreData */ = {
+		180C09C82A1A897100ABC5EC /* Google */ = {
 			isa = PBXGroup;
 			children = (
 				18D804972A1AA1DC00F33FF6 /* GoogleService-Info.plist */,
 			);
-			path = CoreData;
+			path = Google;
 			sourceTree = "<group>";
 		};
 		1810D4842A19D5520080F9A6 /* Model */ = {
