@@ -26,6 +26,7 @@
 		182D02F32A19E60F00074EAF /* DessertHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D02F22A19E60F00074EAF /* DessertHomeViewModel.swift */; };
 		182D02F62A19E9DF00074EAF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D02F52A19E9DF00074EAF /* Extension.swift */; };
 		1881565D2A1A59C50023F2B6 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881565C2A1A59C50023F2B6 /* HapticManager.swift */; };
+		18D804982A1AA1DC00F33FF6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D804972A1AA1DC00F33FF6 /* GoogleService-Info.plist */; };
 		18DA8F952A19EEF800A23C95 /* DescriptiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA8F942A19EEF800A23C95 /* DescriptiveCollectionViewCell.swift */; };
 		18DA8F972A19F60D00A23C95 /* DetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA8F962A19F60D00A23C95 /* DetailsCollectionViewCell.swift */; };
 		18DA8F992A19F71E00A23C95 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA8F982A19F71E00A23C95 /* DetailsViewModel.swift */; };
@@ -49,12 +50,12 @@
 		1810D4802A19CDEC0080F9A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1810D4822A19D54B0080F9A6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1810D4852A19D5680080F9A6 /* DessertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertModel.swift; sourceTree = "<group>"; };
-		1810D4882A19E0150080F9A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		182D02ED2A19E1A100074EAF /* SeveralCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeveralCollectionViewCell.swift; sourceTree = "<group>"; };
 		182D02EF2A19E34300074EAF /* TitleHeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleHeaderCollectionViewCell.swift; sourceTree = "<group>"; };
 		182D02F22A19E60F00074EAF /* DessertHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertHomeViewModel.swift; sourceTree = "<group>"; };
 		182D02F52A19E9DF00074EAF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		1881565C2A1A59C50023F2B6 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		18D804972A1AA1DC00F33FF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		18DA8F942A19EEF800A23C95 /* DescriptiveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptiveCollectionViewCell.swift; sourceTree = "<group>"; };
 		18DA8F962A19F60D00A23C95 /* DetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCollectionViewCell.swift; sourceTree = "<group>"; };
 		18DA8F982A19F71E00A23C95 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
@@ -78,7 +79,7 @@
 		180104A92A19678500E80DD7 = {
 			isa = PBXGroup;
 			children = (
-				1810D4882A19E0150080F9A6 /* GoogleService-Info.plist */,
+				180C09C82A1A897100ABC5EC /* CoreData */,
 				182D02F42A19E9C900074EAF /* Extension */,
 				180104B42A19678500E80DD7 /* JustCook */,
 				180104B32A19678500E80DD7 /* Products */,
@@ -169,6 +170,14 @@
 				1810D47C2A19BDFD0080F9A6 /* SignupViewController.swift */,
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		180C09C82A1A897100ABC5EC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				18D804972A1AA1DC00F33FF6 /* GoogleService-Info.plist */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		1810D4842A19D5520080F9A6 /* Model */ = {
@@ -274,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				180104C22A19678900E80DD7 /* LaunchScreen.storyboard in Resources */,
+				18D804982A1AA1DC00F33FF6 /* GoogleService-Info.plist in Resources */,
 				180104BF2A19678900E80DD7 /* Assets.xcassets in Resources */,
 				1810D4812A19CDEC0080F9A6 /* GoogleService-Info.plist in Resources */,
 			);
