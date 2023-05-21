@@ -10,9 +10,26 @@
 		180104B62A19678500E80DD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180104B52A19678500E80DD7 /* AppDelegate.swift */; };
 		180104B82A19678500E80DD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180104B72A19678500E80DD7 /* SceneDelegate.swift */; };
 		180104BA2A19678500E80DD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180104B92A19678500E80DD7 /* ViewController.swift */; };
-		180104BD2A19678500E80DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180104BB2A19678500E80DD7 /* Main.storyboard */; };
 		180104BF2A19678900E80DD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180104BE2A19678900E80DD7 /* Assets.xcassets */; };
 		180104C22A19678900E80DD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180104C02A19678900E80DD7 /* LaunchScreen.storyboard */; };
+		180104CF2A19682700E80DD7 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180104CE2A19682700E80DD7 /* TabbarViewController.swift */; };
+		180104D22A19684600E80DD7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180104D12A19684600E80DD7 /* WelcomeViewController.swift */; };
+		180104D42A1968DD00E80DD7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180104D32A1968DD00E80DD7 /* SettingsViewController.swift */; };
+		1810D47B2A19BDEC0080F9A6 /* SiginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810D47A2A19BDEC0080F9A6 /* SiginViewController.swift */; };
+		1810D47D2A19BDFD0080F9A6 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810D47C2A19BDFD0080F9A6 /* SignupViewController.swift */; };
+		1810D47F2A19CC380080F9A6 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810D47E2A19CC380080F9A6 /* AuthManager.swift */; };
+		1810D4812A19CDEC0080F9A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1810D4802A19CDEC0080F9A6 /* GoogleService-Info.plist */; };
+		1810D4832A19D54B0080F9A6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810D4822A19D54B0080F9A6 /* NetworkManager.swift */; };
+		1810D4862A19D5680080F9A6 /* DessertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810D4852A19D5680080F9A6 /* DessertModel.swift */; };
+		182D02EE2A19E1A100074EAF /* SeveralCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D02ED2A19E1A100074EAF /* SeveralCollectionViewCell.swift */; };
+		182D02F02A19E34300074EAF /* TitleHeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D02EF2A19E34300074EAF /* TitleHeaderCollectionViewCell.swift */; };
+		182D02F32A19E60F00074EAF /* DessertHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D02F22A19E60F00074EAF /* DessertHomeViewModel.swift */; };
+		182D02F62A19E9DF00074EAF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D02F52A19E9DF00074EAF /* Extension.swift */; };
+		1881565D2A1A59C50023F2B6 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881565C2A1A59C50023F2B6 /* HapticManager.swift */; };
+		18DA8F952A19EEF800A23C95 /* DescriptiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA8F942A19EEF800A23C95 /* DescriptiveCollectionViewCell.swift */; };
+		18DA8F972A19F60D00A23C95 /* DetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA8F962A19F60D00A23C95 /* DetailsCollectionViewCell.swift */; };
+		18DA8F992A19F71E00A23C95 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA8F982A19F71E00A23C95 /* DetailsViewModel.swift */; };
+		B6765052CD047548FD34F43A /* Pods_JustCook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1883E0369BFFE5E41D2A62 /* Pods_JustCook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +37,30 @@
 		180104B52A19678500E80DD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		180104B72A19678500E80DD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		180104B92A19678500E80DD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		180104BC2A19678500E80DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		180104BE2A19678900E80DD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180104C12A19678900E80DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180104C32A19678900E80DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180104CE2A19682700E80DD7 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		180104D12A19684600E80DD7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		180104D32A1968DD00E80DD7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1810D47A2A19BDEC0080F9A6 /* SiginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiginViewController.swift; sourceTree = "<group>"; tabWidth = 3; };
+		1810D47C2A19BDFD0080F9A6 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		1810D47E2A19CC380080F9A6 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		1810D4802A19CDEC0080F9A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1810D4822A19D54B0080F9A6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1810D4852A19D5680080F9A6 /* DessertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertModel.swift; sourceTree = "<group>"; };
+		1810D4882A19E0150080F9A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		182D02ED2A19E1A100074EAF /* SeveralCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeveralCollectionViewCell.swift; sourceTree = "<group>"; };
+		182D02EF2A19E34300074EAF /* TitleHeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleHeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		182D02F22A19E60F00074EAF /* DessertHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertHomeViewModel.swift; sourceTree = "<group>"; };
+		182D02F52A19E9DF00074EAF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		1881565C2A1A59C50023F2B6 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		18DA8F942A19EEF800A23C95 /* DescriptiveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptiveCollectionViewCell.swift; sourceTree = "<group>"; };
+		18DA8F962A19F60D00A23C95 /* DetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		18DA8F982A19F71E00A23C95 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		589D6D6965479D2B4D856572 /* Pods-JustCook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustCook.release.xcconfig"; path = "Target Support Files/Pods-JustCook/Pods-JustCook.release.xcconfig"; sourceTree = "<group>"; };
+		926E2BE7CB429859ED156C80 /* Pods-JustCook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustCook.debug.xcconfig"; path = "Target Support Files/Pods-JustCook/Pods-JustCook.debug.xcconfig"; sourceTree = "<group>"; };
+		AD1883E0369BFFE5E41D2A62 /* Pods_JustCook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustCook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6765052CD047548FD34F43A /* Pods_JustCook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +78,12 @@
 		180104A92A19678500E80DD7 = {
 			isa = PBXGroup;
 			children = (
+				1810D4882A19E0150080F9A6 /* GoogleService-Info.plist */,
+				182D02F42A19E9C900074EAF /* Extension */,
 				180104B42A19678500E80DD7 /* JustCook */,
 				180104B32A19678500E80DD7 /* Products */,
+				4CBBB39B21D5509C15533BFB /* Pods */,
+				24397DAEE5457322F9F30CE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,119 @@
 		180104B42A19678500E80DD7 /* JustCook */ = {
 			isa = PBXGroup;
 			children = (
-				180104B52A19678500E80DD7 /* AppDelegate.swift */,
-				180104B72A19678500E80DD7 /* SceneDelegate.swift */,
+				182D02F12A19E5ED00074EAF /* ViewModel */,
+				1810D4842A19D5520080F9A6 /* Model */,
+				180104CC2A1967C000E80DD7 /* Managers */,
+				180104CB2A1967BA00E80DD7 /* Views */,
+				180104C92A19679900E80DD7 /* Resources */,
+				180104CA2A1967B000E80DD7 /* Controllers */,
 				180104B92A19678500E80DD7 /* ViewController.swift */,
-				180104BB2A19678500E80DD7 /* Main.storyboard */,
-				180104BE2A19678900E80DD7 /* Assets.xcassets */,
-				180104C02A19678900E80DD7 /* LaunchScreen.storyboard */,
 				180104C32A19678900E80DD7 /* Info.plist */,
 			);
 			path = JustCook;
+			sourceTree = "<group>";
+		};
+		180104C92A19679900E80DD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				180104B72A19678500E80DD7 /* SceneDelegate.swift */,
+				1810D4802A19CDEC0080F9A6 /* GoogleService-Info.plist */,
+				180104C02A19678900E80DD7 /* LaunchScreen.storyboard */,
+				180104B52A19678500E80DD7 /* AppDelegate.swift */,
+				180104BE2A19678900E80DD7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		180104CA2A1967B000E80DD7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				180104D02A19682C00E80DD7 /* Others */,
+				180104CD2A19680E00E80DD7 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		180104CB2A1967BA00E80DD7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				182D02ED2A19E1A100074EAF /* SeveralCollectionViewCell.swift */,
+				182D02EF2A19E34300074EAF /* TitleHeaderCollectionViewCell.swift */,
+				18DA8F962A19F60D00A23C95 /* DetailsCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		180104CC2A1967C000E80DD7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1810D47E2A19CC380080F9A6 /* AuthManager.swift */,
+				1881565C2A1A59C50023F2B6 /* HapticManager.swift */,
+				1810D4822A19D54B0080F9A6 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		180104CD2A19680E00E80DD7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				180104CE2A19682700E80DD7 /* TabbarViewController.swift */,
+				180104D32A1968DD00E80DD7 /* SettingsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		180104D02A19682C00E80DD7 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				180104D12A19684600E80DD7 /* WelcomeViewController.swift */,
+				1810D47A2A19BDEC0080F9A6 /* SiginViewController.swift */,
+				18DA8F942A19EEF800A23C95 /* DescriptiveCollectionViewCell.swift */,
+				1810D47C2A19BDFD0080F9A6 /* SignupViewController.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		1810D4842A19D5520080F9A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1810D4852A19D5680080F9A6 /* DessertModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		182D02F12A19E5ED00074EAF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				182D02F22A19E60F00074EAF /* DessertHomeViewModel.swift */,
+				18DA8F982A19F71E00A23C95 /* DetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		182D02F42A19E9C900074EAF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				182D02F52A19E9DF00074EAF /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		24397DAEE5457322F9F30CE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD1883E0369BFFE5E41D2A62 /* Pods_JustCook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CBBB39B21D5509C15533BFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				926E2BE7CB429859ED156C80 /* Pods-JustCook.debug.xcconfig */,
+				589D6D6965479D2B4D856572 /* Pods-JustCook.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180104C62A19678900E80DD7 /* Build configuration list for PBXNativeTarget "JustCook" */;
 			buildPhases = (
+				C2BF90F81005649261811E71 /* [CP] Check Pods Manifest.lock */,
 				180104AE2A19678500E80DD7 /* Sources */,
 				180104AF2A19678500E80DD7 /* Frameworks */,
 				180104B02A19678500E80DD7 /* Resources */,
+				39B5E49702A1B5F35B816F9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +275,84 @@
 			files = (
 				180104C22A19678900E80DD7 /* LaunchScreen.storyboard in Resources */,
 				180104BF2A19678900E80DD7 /* Assets.xcassets in Resources */,
-				180104BD2A19678500E80DD7 /* Main.storyboard in Resources */,
+				1810D4812A19CDEC0080F9A6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39B5E49702A1B5F35B816F9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JustCook/Pods-JustCook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JustCook/Pods-JustCook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JustCook/Pods-JustCook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2BF90F81005649261811E71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustCook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		180104AE2A19678500E80DD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1810D47D2A19BDFD0080F9A6 /* SignupViewController.swift in Sources */,
+				18DA8F992A19F71E00A23C95 /* DetailsViewModel.swift in Sources */,
+				18DA8F952A19EEF800A23C95 /* DescriptiveCollectionViewCell.swift in Sources */,
+				180104D42A1968DD00E80DD7 /* SettingsViewController.swift in Sources */,
+				180104CF2A19682700E80DD7 /* TabbarViewController.swift in Sources */,
+				182D02EE2A19E1A100074EAF /* SeveralCollectionViewCell.swift in Sources */,
+				1881565D2A1A59C50023F2B6 /* HapticManager.swift in Sources */,
+				18DA8F972A19F60D00A23C95 /* DetailsCollectionViewCell.swift in Sources */,
+				180104D22A19684600E80DD7 /* WelcomeViewController.swift in Sources */,
+				1810D4862A19D5680080F9A6 /* DessertModel.swift in Sources */,
+				1810D4832A19D54B0080F9A6 /* NetworkManager.swift in Sources */,
+				182D02F62A19E9DF00074EAF /* Extension.swift in Sources */,
 				180104BA2A19678500E80DD7 /* ViewController.swift in Sources */,
+				182D02F02A19E34300074EAF /* TitleHeaderCollectionViewCell.swift in Sources */,
+				1810D47B2A19BDEC0080F9A6 /* SiginViewController.swift in Sources */,
 				180104B62A19678500E80DD7 /* AppDelegate.swift in Sources */,
 				180104B82A19678500E80DD7 /* SceneDelegate.swift in Sources */,
+				182D02F32A19E60F00074EAF /* DessertHomeViewModel.swift in Sources */,
+				1810D47F2A19CC380080F9A6 /* AuthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		180104BB2A19678500E80DD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				180104BC2A19678500E80DD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		180104C02A19678900E80DD7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +480,7 @@
 		};
 		180104C72A19678900E80DD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926E2BE7CB429859ED156C80 /* Pods-JustCook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,10 +490,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JustCook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +508,7 @@
 		};
 		180104C82A19678900E80DD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 589D6D6965479D2B4D856572 /* Pods-JustCook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,10 +518,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JustCook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
