@@ -7,6 +7,8 @@
 
 import UIKit
 import SDWebImage
+
+
 class SeveralCollectionViewCell: UICollectionViewCell {
     static let identifier = "SeveralCollectionViewCell"
 
@@ -37,12 +39,9 @@ class SeveralCollectionViewCell: UICollectionViewCell {
     
         contentView.addSubview(imageView)
         contentView.addSubview(DessertLabel)
-     
-      
+    
         configureLayout()
         
-       
-       
         
     }
     
@@ -55,7 +54,7 @@ class SeveralCollectionViewCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
+    ///
     func configureLayout() {
         
         NSLayoutConstraint.activate([
