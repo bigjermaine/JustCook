@@ -53,7 +53,7 @@ class WelcomeViewController: UIViewController {
     }
     
     
-    
+        ///welcome Button
         @objc func welcomeButtonTapped() {
             HapticManager.shared.vibrateForSelection()
           let vc = SiginViewController()
